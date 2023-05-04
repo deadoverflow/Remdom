@@ -3,7 +3,7 @@ Remdom is a python module for generating pseudo-random numbers using something c
 This pretty much means that if repetitions are detected in generated numbers, 
 algorithm will replay the entire generation process while updateing the seed until it finds numbers with 
 no repetitions at all. 
-This leaves us with maximum of 9 decimal long random numbers with no repetitions at all!
+This leaves us with maximum of 10 decimal long random numbers with no repetitions at all!
 
 Notice that this is in fact beta version and may not be stable all the time but it is expected
 to work 95% of the time.
@@ -26,7 +26,7 @@ Where "decimals" stand for amount of decimals in the random number
 This function will return integer that will not contain any repetitions.
 
 It is important to tell that futher versions of remdom module may even remove 0 as part of generated numbers to remove number rounding.
-But it is still under consideration since it would drop to only 8 maximum number digits.
+But it is still under consideration since it would drop to only 9 maximum number digits.
 
 
 Have fun using this module!
